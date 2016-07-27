@@ -1,5 +1,7 @@
-Custom Authorizable Node Name
+Readable Authorizable Node Name
 ========
+
+This OSGi Service changes the default behavior of AEM 6.1 so that new users are created at path /home/users/[first character of username]/[username], instead of being created an obfuscated path, so that user creation continues to work like it did in AEM 5.6.1.
 
 This a content package project generated using the multimodule-content-package-archetype.
 
